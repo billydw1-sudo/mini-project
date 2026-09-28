@@ -67,7 +67,7 @@ nav {
   font-weight: 200;
 }
 
-*/ header {
+header {
   width: 100%;
   margin: 0 auto;
 }
@@ -129,12 +129,12 @@ nav {
   justify-content: center;
   background-color: #fefefe;
 }
-hero__img--wrapper {
+.hero__img--wrapper {
   max-width: 540px;
 }
 
-hero__description {
-  margin-left: 60 px;
+.hero__description {
+  margin-left: 60px;
 }
 
 .subheader {
@@ -156,7 +156,6 @@ button {
   margin: 0 auto;
 }
 
-
 /*
 
 ABOUT
@@ -167,67 +166,67 @@ SOCIAL
 #about,
 #social,
 #contact,
-footer{
-  padding:24px 0;
+footer {
+  padding: 24px 0;
   width: 100%;
-  max-width: 12000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
-.section__card{
+.section__card {
   border: 1.5px dashed #cbd5e1;
-  padding:40px 20px;
+  padding: 40px 20px;
   width: 100%;
   max-width: 1200px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 16px 0 0 16px;
+  display: flex;
 }
 
-.section__description{
-  display:flex;
+.section__description {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section__card--social{
+.section__card--social {
   background-color: #badcee;
   border-right: 20px solid #ef4810;
 }
 
-.section__card--about{
+.section__card--about {
   background-color: #ffeaaf;
   border-right: 20px solid #badcee;
 }
-  
-.about__row, .social__row{
-  justify-content: start;;
+
+.about__row,
+.social__row {
+  justify-content: start;
 }
 
-.section__title{
+.section__title {
   margin-bottom: 16px;
   font-family: "Space Mono", monospace;
-  letter-spacing: 8px
+  letter-spacing: 8px;
 }
 
-.section__ing--wrapper{
+.section__img--wrapper {
   width: 60%;
   padding: 0 24px;
 }
 
-
-.section__description--wrapper{
+.section__description--wrapper {
   width: 60%;
   padding: 0 24px;
-
 }
 
-.section__description--wrapper{
+.section__description--wrapper {
   width: 70%;
   padding: 0 24px;
 }
 
-.section__description--para{
+.section__description--para {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 24px;
@@ -239,7 +238,7 @@ contact
 
 */
 
-.section__card--contact{
+.section__card--contact {
   border: 1.5px dashed #c231c2;
   width: 96%;
   border-radius: 16px;
@@ -255,7 +254,8 @@ form {
   gap: 12px;
 }
 
-input, textarea {
+input,
+textarea {
   margin-bottom: 24px;
   font-size: 20 px;
   padding: 6px 12px;
@@ -270,7 +270,7 @@ FOOTER
 
 */
 
-footer{
+footer {
   background-color: #badcee;
   display: flex;
   flex-direction: column;
@@ -280,14 +280,14 @@ footer{
   border-radius: 20% 20% 0 0;
 }
 
-.footer__logo{
+.footer__logo {
   margin-bottom: 8px;
 }
 
-.footer__links{
+.footer__links {
   margin-bottom: 16px;
 }
 
-.footer__links{
-  padding: 0 16px
+.footer__links {
+  padding: 0 16px;
 }
